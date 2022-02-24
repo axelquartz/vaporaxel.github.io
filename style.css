@@ -1,3 +1,30 @@
-h1{
-    background-color: yellow;
+#navigator{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    margin: auto;
+
+}
+
+#menu{
+    display: flex;
+    margin: auto;
+    flex-wrap: wrap;
+    align-items: flex-end;
+}
+#logo{
+    margin: auto;
+}
+#hero{
+    margin: 100px 0 100px 0;
+    text-align: center;
+}
+#portfolio{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+img{
+    width: 400px;
+    margin: 20px;
 }
